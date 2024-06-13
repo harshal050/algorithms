@@ -180,55 +180,7 @@
                                 
                                 
                                    int tree[7];
-                                   
-
-                                //    void build(int node , int s,int e ,  vi &arr){
-                                //     if(s==e){
-                                //         tree[node] = arr[s];
-                                //     }
-                                //     else
-                                //     {
-                                //         int m = (s + e) / 2;
-                                //         build(node * 2 + 1, s, m, arr);
-                                //         build(node * 2 + 2, m + 1, e, arr);
-                                //         tree[node] = max(tree[node * 2 + 1], tree[node * 2 + 2]);
-                                //     }
-                                //    }
-
-
-                                //    int query(int node , int s,int e , int l , int r , vi &arr){
-                                //     if(s>r || e<l){
-                                //         return -1e9;
-                                //     } 
-                                //     else if(s==e){
-                                //         return tree[node];
-                                //     }
-                                //     else if(s==l && e==r){
-                                //         return tree[node];
-                                //     } 
-                                //     else{
-                                //         int m = (s+e)/2;
-                                //         int a = query(node*2+1 , s , m , l, r,arr);
-                                //         int b = query(node*2+2 , m+1 , e , l, r,arr);
-                                //         return max(a,b);
-                                //     }
-                                //    }
-
-
-                                //    void update(int node , int s,int e , int l,int r,int &val,vi &arr){
                                 
-                                //     if(s>r) return;
-                                //     if(s==l && e==r){
-                                //         tree[node] = val;
-                                //         return;
-                                //     }
-                                //     else{
-                                //         int m = (s+e)/2;
-                                //         update(node*2+1 , s , m , l, r,val,arr);
-                                //         update(node*2+2 , m+1 , e , l, r,val,arr);
-                                //         tree[node] = max(tree[node*2+1] , tree[node*2+2]);   
-                                //     }
-                                //    }
 
 
                                 void build(int node , int s,int e ,  vi &arr){
@@ -288,9 +240,6 @@
 
                                         build(0,0,n-1,v);
 
-                                        // f(i,7) cout<<tree[i]<<" ";
-                                        //     cout<<endl;
-
                                         mkx
                                         while(x--){
                                             mkabc
@@ -300,8 +249,7 @@
                                                 int ans = query(0,0,n-1,b-1,c-1,v);
                                                 c(ans)
                                             }
-                                            // f(i,7) cout<<tree[i]<<" ";
-                                            // cout<<endl;
+                                           
                                         
                                         }
                                         
