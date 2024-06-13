@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "random": "cpp",
+        "ratio": "cpp",
+        "cmath": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "regex": "cpp",
+        "utility": "cpp",
+        "valarray": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "cstdlib": "cpp",
+        "complex": "cpp",
+        "ostream": "cpp",
+        "iomanip": "cpp",
+        "scoped_allocator": "cpp"
+    },
+    "git.ignoreLimitWarning": true
+}
